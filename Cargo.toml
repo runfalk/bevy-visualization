@@ -1,0 +1,10 @@
+[package]
+name = "rust-visualizer"
+version = "0.1.0"
+authors = ["Andreas Runfalk <andreas@runfalk.se>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = { git = "https://github.com/bevyengine/bevy/", rev = "785aad92f4355159c0d4ceacc77d66b537cfac04" }
