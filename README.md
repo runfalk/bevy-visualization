@@ -22,3 +22,10 @@ for which dependencies that are needed.
 # Fedora
 sudo dnf install gcc-c++ libX11-devel alsa-lib-devel systemd-devel
 ```
+
+Run the simulation using cargo. It might not be quick enough unless it runs in
+release mode.
+
+```bash
+cargo run --release
+```
