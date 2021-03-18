@@ -8,3 +8,8 @@ edition = "2018"
 
 [dependencies]
 bevy = { git = "https://github.com/bevyengine/bevy/", rev = "785aad92f4355159c0d4ceacc77d66b537cfac04" }
+
+# bevy_rng dependencies
+rand = { version = "0.8", default-features = false, features = ["getrandom"] }
+rand_seeder = "0.2"
+rand_xoshiro = "0.6"
